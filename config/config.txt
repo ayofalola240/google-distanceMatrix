@@ -1,0 +1,2 @@
+This folder contains configuration files such as; db configurations and environment variables
+

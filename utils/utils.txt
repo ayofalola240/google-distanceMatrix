@@ -1,0 +1,1 @@
+This where you  abstract and keep the functions and classes that are frequently use in the app e.g errorhandler and email configurations
