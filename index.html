@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate the Distance Between two Addresses demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<section class="main-content">
+    <h1>Create Order</h1>
+<hr>
+<form id="distance_form">
+    <div>
+        <label>Company Name.</label>
+      <input type="text" id="companyName" placeholder="Enter a location..." required>
+    </div>
+    <div>
+        <label>Type of Cargo.</label>
+      <input type="text" id="typeOfCargo" placeholder="Enter a location..." required>
+    </div>
+    <div>
+        <label>Delivery Instruction</label>
+      <input type="text" id="deliveryInstruction" placeholder="Enter a location..." required>
+    </div>
+    <div>
+        <label>Special notes</label>
+      <input type="text" id="specialNote" placeholder="Enter a location..." required>
+    </div>
+<div>
+    <label>Origin.</label>
+  <input type="text" id="from_places" placeholder="Enter a location..." required>
+  <input id="origin" name="origin" required="" type="hidden" />
+</div>
+ 
+  <div>
+      <label>Destination.</label>
+    <input type="text" id="to_places" placeholder="Enter a destination..." required>
+    <input id="destination" name="destination" required="" type="hidden" />
+ </div>
+ <div id="result"></div>
+
+  <button type="submit" id="createOrder">Submit</button>
+
+</form>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script  defer 
+src="https://maps.googleapis.com/maps/api/js?libraries=places&language=en&key=AIzaSyBIms-TSWEhZCsIeYhoQvxDcNcBINgxUFY"  type="text/javascript">
+</script>
+<script src="script.js"></script>
+
+</body>
+</html>
+
+
